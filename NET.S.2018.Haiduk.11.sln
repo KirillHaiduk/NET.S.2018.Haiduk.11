@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book", "Book\Book.csproj", "{971F6ABC-803D-407D-BC1C-A2ECF5859F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{EB3E3F6A-0DC6-4943-B637-B59A4156ECC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book.Tests", "Book.Tests\Book.Tests.csproj", "{1A67954B-CD8B-4461-8238-EDA4C452CD0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{971F6ABC-803D-407D-BC1C-A2ECF5859F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{971F6ABC-803D-407D-BC1C-A2ECF5859F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{971F6ABC-803D-407D-BC1C-A2ECF5859F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{971F6ABC-803D-407D-BC1C-A2ECF5859F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3E3F6A-0DC6-4943-B637-B59A4156ECC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3E3F6A-0DC6-4943-B637-B59A4156ECC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3E3F6A-0DC6-4943-B637-B59A4156ECC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3E3F6A-0DC6-4943-B637-B59A4156ECC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A67954B-CD8B-4461-8238-EDA4C452CD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A67954B-CD8B-4461-8238-EDA4C452CD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A67954B-CD8B-4461-8238-EDA4C452CD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A67954B-CD8B-4461-8238-EDA4C452CD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D9CCCA6-727E-42D8-A3DC-082C37C22B37}
+	EndGlobalSection
+EndGlobal
