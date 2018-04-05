@@ -114,6 +114,11 @@ namespace Book
             }
         }
 
+        /// <summary>
+        /// Method for sorting books in Book List 
+        /// </summary>
+        /// <param name="tag">Tag for sorting a book (ISBN, Author Name or Title)</param>
+        /// <returns>Sorted collection of books by tag</returns>
         public void SortBooksByTag(object tag) => bookList.OrderBy(t => t.ISBN == (string)tag || t.AuthorName == (string)tag || t.Title == (string)tag || t.Price == (decimal)tag);
 
         #endregion
